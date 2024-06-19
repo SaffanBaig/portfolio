@@ -6,11 +6,11 @@ const Contact = () => {
       <p className="text-teal-700 text-4xl pb-2 font-bold">Contact</p>
       <div className="flex flex-col md:flex-row">
         <div className="md:w-1/2 pr-4 text-lg">
-          I'm always eager to take on new and exciting projects, so if you have
+          {`I'm always eager to take on new and exciting projects, so if you have
           something in mind or need assistance with your next digital venture,
           please feel free to reach out. Let's collaborate and bring your vision
           to life. Together, we can create an exceptional online presence that
-          exceeds your expectations.
+        exceeds your expectations.`}
         </div>
         <div className="md:w-1/2 items-center mt-4 flex flex-row-reverse pl-4">
           <a className="mx-8" href="/resume.pdf" download="saffan-resume.pdf">

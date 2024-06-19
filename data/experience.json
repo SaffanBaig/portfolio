@@ -1,5 +1,6 @@
 [
     {
+        "id": 1,
         "title": "Senior Software Engineer",
         "company": "Aviatrix",
         "startDate": "Feb 2024",
@@ -7,6 +8,7 @@
         "description": "Working as a Senior Software Engineer to build AI driven applications and creating internal projects for helping daily marketing and sales"
     },
     {
+        "id": 2,
         "title": "Software Engineer",
         "company": "Daraz (Alibaba Global)",
         "startDate": "May 2022",
@@ -14,6 +16,7 @@
         "description": "Worked on payments domain and handle daily payment tech queries and integrated payment methods. Also worked on digital domain and created topup frontend for digital products."
     },
     {
+        "id": 3,
         "title": "Software Engineer",
         "company": "VinnCorp",
         "startDate": "June 2021",
@@ -21,6 +24,7 @@
         "description": "Worked on a secure portal and payment integration for a leading mobile sim provider in US. Also developed a real estate money lending application."
     },
     {
+        "id": 4,
         "title": "Full Stack Developer",
         "company": "Liquid Technologies",
         "startDate": "Nov 2020",
@@ -28,6 +32,7 @@
         "description": "Worked on a multi user role dashboard with firebase and maps integration, also build a content full website using react for a media agency containing complex animations and requires ssr"
     },
     {
+        "id": 5,
         "title": "Web Development Intern",
         "company": "SESSI",
         "startDate": "May 2019",

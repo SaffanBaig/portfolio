@@ -40,8 +40,8 @@ const Nav = () => {
           </div>
         )}
         <ul className="pt-20">
-          {NavItems.map((item) => (
-            <li className="my-8" onClick={toggleNav}>
+          {NavItems.map((item, index) => (
+            <li className="my-8" onClick={toggleNav} key={index}>
               <a href={item.url} className="text-5xl text-white font-bold">
                 {item.name}
               </a>

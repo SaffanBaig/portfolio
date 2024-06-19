@@ -28,8 +28,8 @@ const ProjectCard = ({ project }: { project: Project }) => {
           </span>
         </p>
         <div className="flex mt-2 gap-4">
-          {project?.links.map((data) => (
-            <a target="_blank" href={data.url}>
+          {project?.links.map((data, index) => (
+            <a key={index} target="_blank" href={data.url}>
               {data.type === "website" && (
                 <svg
                   viewBox="0 0 24 24"

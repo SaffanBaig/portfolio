@@ -7,7 +7,7 @@ const Experience = () => {
       <p className="text-teal-700 text-4xl pb-2 font-bold">Experience</p>
       <div className="pt-12 border-l-4 border-teal-700 border-solid">
         {ExperienceData.map((exp) => (
-          <div className="pl-2 mb-12">
+          <div className="pl-2 mb-12" key={exp?.id}>
             <div className="relative">
               <div className="absolute w-8 h-8 bg-teal-700 rounded-full left-[-26px] flex items-center justify-center" />
             </div>
