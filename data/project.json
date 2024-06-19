@@ -4,7 +4,7 @@
         "description": "A multi organization collaborative whiteboard application providing boards for realtime collaboration between users in an organization",
         "techUsed": ["Next.js", "Convex", "Shadcn/ui", "Liveblocks"],
         "projectImage": "/whiteboard.png",
-        "projectLink": "www.google.com",
+        "projectLink": "https://whiteboard-bay.vercel.app/",
         "links": [
             {
                 "type": "github",
@@ -21,7 +21,7 @@
         "description": "App that provides methods and tools to users for product innovation and problem discovery",
         "techUsed": ["React", "Node", "Express", "Parse Server", "MongoDB" , "Stripe"],
         "projectImage": "/project1.jpg",
-        "projectLink": "www.google.com",
+        "projectLink": "https://www.businessinnovation.design/",
         "links": [
             
         ]
