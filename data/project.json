@@ -26,5 +26,25 @@
             
         ]
     }
+    ,
+    {
+        "name": "Daily Notes",
+        "description": "A web application where you can save your daily notes",
+        "techUsed": ["Nextjs", "Clerk", "Prisma", "Shadcn/ui", "PostgreSQL"],
+        "projectImage": "/dailynotes.png",
+        "projectLink": "https://daily-notes-saffan.vercel.app/",
+        "links": [
+            {
+                "type": "github",
+                "url": "https://github.com/SaffanBaig/daily-notes"
+            },
+            {
+                "type": "website",
+                "url": "https://daily-notes-saffan.vercel.app/"
+            }
+        ]
+    }
+    
+
     
 ]
