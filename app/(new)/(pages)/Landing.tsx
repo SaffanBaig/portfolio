@@ -13,7 +13,7 @@ const Landing = () => {
       <div>
         <div className="relative rounded-full h-60 w-60 border border-light overflow-hidden z-0">
           <Image
-            src="/pic.jfif"
+            src="/pic.png"
             alt="Saffan"
             layout="fill"
             objectFit="cover"
