@@ -11,17 +11,17 @@ const Landing = () => {
       className="h-full min-h-screen flex flex-col md:flex-row-reverse items-center justify-center gap-8 md:justify-between"
     >
       <div>
-        <div className="rounded-full h-60 w-60 border border-light overflow-hidden">
+        <div className="relative rounded-full h-60 w-60 border border-light overflow-hidden z-0">
           <Image
-            src={"/bill.jpg"}
-            alt="bill"
-            height={100}
-            width={100}
-            className="h-60 w-60 hover:scale-110 transition-all duration-500"
+            src="/pic.jfif"
+            alt="Saffan"
+            layout="fill"
+            objectFit="cover"
+            className="transition-all duration-500 hover:scale-110"
           />
         </div>
       </div>
-      <div className="flex flex-col gap-8">
+      <div className="flex flex-col gap-8 items-center md:items-start">
         <PageTitle text="Hey! I'm Saffan Baig" />
 
         <p className="text-lg md:text-2xl">

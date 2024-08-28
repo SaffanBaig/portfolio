@@ -22,10 +22,11 @@ const MobileNav = () => {
           </svg>
         </button>
       </div>
+
       <div
         className={classNames(
-          "transition-all duration-500 h-screen w-screen fixed z-100 bg-primary flex items-center justify-center text-center -top-full",
-          showNav && "top-0"
+          "transition-all duration-500 h-screen w-screen fixed bg-primary flex items-center justify-center text-center -top-full",
+          showNav && "top-0 z-50"
         )}
       >
         {showNav && (
