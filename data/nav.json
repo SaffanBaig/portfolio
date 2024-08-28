@@ -1,8 +1,13 @@
 [
     {
+        "id": 0,
+        "name": "Home",
+        "url": "#landing"
+    },
+    {
         "id": 1,
         "name": "Skills",
-        "url": "#skills"
+        "url": "#skillset"
     },
     {
         "id": 2,

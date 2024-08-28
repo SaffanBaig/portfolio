@@ -20,16 +20,21 @@ const ProjectCard = ({ project }: { project: Project }) => {
         <h2 className="text-2xl font-bold text-teal-700 line-height-[3rem] mb-4">
           {project.name}
         </h2>
-        <p className="text-small text-white my-4">{project.description}</p>
+        <p className="text-small my-4">{project.description}</p>
         <p>
           <span>Technologies: </span>{" "}
-          <span className="text-white text-small">
+          <span className="text-small">
             {project?.techUsed && project.techUsed.join(", ")}
           </span>
         </p>
         <div className="flex mt-2 gap-4">
           {project?.links.map((data, index) => (
-            <a key={index} target="_blank" href={data.url}>
+            <a
+              key={index}
+              target="_blank"
+              className="hover:scale-125"
+              href={data.url}
+            >
               {data.type === "website" && (
                 <svg
                   viewBox="0 0 24 24"

@@ -17,6 +17,23 @@
         ]
     },
     {
+        "name": "Code Together",
+        "description": "A collaborative coding platform to write and execute code online in private rooms",
+        "techUsed": ["ReactJS", "NestJS", "SocketIO", "Typescript"],
+        "projectImage": "/codetog.png",
+        "projectLink": "https://codetog.netlify.app/",
+        "links": [
+            {
+                "type": "github",
+                "url": "https://github.com/SaffanBaig/codetogether"
+            },
+            {
+                "type": "website",
+                "url": "https://codetog.netlify.app/"
+            }
+        ]
+    },
+    {
         "name": "Business Innovation Design",
         "description": "App that provides methods and tools to users for product innovation and problem discovery",
         "techUsed": ["React", "Node", "Express", "Parse Server", "MongoDB" , "Stripe"],

@@ -3,7 +3,7 @@ import React from "react";
 
 const Landing = () => {
   return (
-    <div id="home" className="h-screen flex flex-col">
+    <div id="home" className="h-screen flex flex-col justify-center">
       <p className="text-teal-700 text-4xl pb-2 font-bold">{`Hello World!`}</p>
       <p className="text-3xl md:text-6xl text-white py-8 font-extrabold">
         {`Hey! I'm Saffan Baig`}
