@@ -34,13 +34,20 @@
         ]
     },
     {
-        "name": "Business Innovation Design",
-        "description": "App that provides methods and tools to users for product innovation and problem discovery",
-        "techUsed": ["React", "Node", "Express", "Parse Server", "MongoDB" , "Stripe"],
-        "projectImage": "/project1.jpg",
-        "projectLink": "https://www.businessinnovation.design/",
+        "name": "Video Call Application",
+        "description": "A realtime group video/audio call application",
+        "techUsed": ["ReactJS", "Vite", "WebRTC", "Agora"],
+        "projectImage": "/meetapp.png",
+        "projectLink": "https://meet-app2.netlify.app",
         "links": [
-            
+            {
+                "type": "github",
+                "url": "https://github.com/SaffanBaig/video-chat"
+            },
+            {
+                "type": "website",
+                "url": "https://meet-app2.netlify.app"
+            }
         ]
     }
     ,
